@@ -6,12 +6,13 @@ import './Header.css';
 
 const DivImg = styled.div`
 width: 100%;
+height: auto;
 text-align: center;
 `
 
 const Img = styled.img`
-width: 70%px;
-height: 100px
+width: auto;
+height: 80px
 `
 
 const Technologies = (props) => {

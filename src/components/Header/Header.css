@@ -1,5 +1,5 @@
 
-
+   
   .Intro {
       display: flex;
       flex-direction: row;
@@ -24,7 +24,7 @@
   .Intro-text h1 {
       font-size: 60px;
       margin-bottom: 1rem;
-      color:#6d76f7;
+      color: rgba(73, 63, 252, 1);
   }
 
   .Intro-text p {
@@ -36,8 +36,9 @@
 
   .Technologies-container {
       width: 100%;
+      height: auto;
       margin-top: 1%;
       display: grid;
-      grid-template-columns: repeat(5, 20%);
+      grid-template-columns: repeat(6, 17%);
       padding: 20px;
   }

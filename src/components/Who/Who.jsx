@@ -15,7 +15,7 @@ const Who = () => {
         <div className='Who'>
             <div className='Who-text'>
                 <h1>
-                    Who I am?
+                    Who is this guy?
                 </h1>
                 <div className='Who-p'>
                     <p>
