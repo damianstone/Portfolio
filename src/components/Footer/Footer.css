@@ -1,0 +1,33 @@
+.Footer {
+    background: #6d76f7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+}
+
+.Footer-title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.Footer-social-wrap {
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Footer-social {
+    width: 100%;
+    font-size: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
