@@ -11,7 +11,7 @@ export const HeroContent = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 50%);
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   width: 100%;
   height: 100%;
   padding: 60px 40px;
