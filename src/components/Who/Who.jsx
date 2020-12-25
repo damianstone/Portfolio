@@ -1,33 +1,18 @@
 import React from 'react';
-import styled from 'styled-components';
-import header2 from '../../images/header2.png'
-import './Who.css';
+import Title from './TitleSection/Title';
+import WhoInfo from './WhoInfo/WhoInfo';
+import damian from '../../images/damian.JPG'
 
-const Img = styled.img`
-width: 45%;
-height: 500px;
-align-self: center;
+import classes from './Who.module.css';
 
-`
-
-const Who = () => {
+const Who = (props) => {
     return (
-        <div className='Who'>
-            <div className='Who-text'>
-                <h1>
-                    Who is this guy?
-                </h1>
-                <div className='Who-p'>
-                    <p>
-                    Maze makes it easy to gather user insights by integrating into your existing design and prototyping workflow. Creating user tests is easy as pie. Test InVision, Marvel or Sketch prototypes, and see how your design performs with actionable metrics.
-                    </p>
-                    <br></br>
-                    <p>
-                    Using Maze has supercharged our product design process and made it possible to drive faster turnaround times, speeding up product iteration and making for a better, faster user experience.
-                    </p>
-                </div>
+        <div className={classes.Who}>
+            <Title title='About me' />
+            <WhoInfo />
+            <div>
+                <Title title='Technologies' />
             </div>
-            <Img src={header2} />
         </div>
 
     )

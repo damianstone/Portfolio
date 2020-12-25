@@ -1,0 +1,9 @@
+.Title {
+    width: 100%;
+}
+
+.Title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color:rgba(73, 63, 252, 1);
+}

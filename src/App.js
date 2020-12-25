@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-import Header from './components/Header/Header';
-import Who from './components/Who/Who';
-import Diplomas from './components/Diplomas/Diplomas';
-import Footer from './components/Footer/Footer';
-import classes from './App.module.css';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import './App.css';
 
 class App extends Component {
 
   render() {
     return (
-      <div className={classes.App}>
-        <Header />
-        <Who />
-        <Diplomas/>
-        <Footer />
-      </div>
+        <Router>
+          <Switch>
+            <Route path='/' component={Home} exact />
+          </Switch>
+        </Router>
     );
   }
 }

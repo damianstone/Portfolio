@@ -7,3 +7,10 @@ Lightest Blue: #4DA8DA
 Shadow of Dark Blue: #203647
 
 Shadow of Light Blue: #EEFBFB
+
+USADOS 
+verde agua => #0FE47A
+verde hover => #3DF197
+
+morado => linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1))
+morado hover => #7577fa
