@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-  background: white;
+  background: #f9f9f9;
   width: 100%;
   height: 100vh;
 `;

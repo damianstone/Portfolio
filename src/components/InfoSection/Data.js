@@ -1,6 +1,7 @@
 
 
 export const HomeObjOne = {
+    to: 'projects',
     id: 'about',
     lightBg: true,
     lightText: false,
@@ -8,7 +9,7 @@ export const HomeObjOne = {
     topLine: '',
     headline: 'About Me',
     description: 'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work',
-    buttonLabel: 'Our projects',
+    buttonLabel: 'Projects',
     imgStart: false, 
     img: '/images/svg-1.svg',
     alt: 'Car',
@@ -18,10 +19,11 @@ export const HomeObjOne = {
 };
 
 export const HomeObjTwo = {
+    to: 'home',
     id: 'work',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'DVSOFT',
     headline: 'Dream your ideas, we become it into reality',
     description: 'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work.',
@@ -29,9 +31,9 @@ export const HomeObjTwo = {
     imgStart: true, 
     img: '/images/svg-3.svg',
     alt: 'app',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 export const HomeObjThree = {

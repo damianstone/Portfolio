@@ -66,13 +66,13 @@ const Navbar = ({ toggle }) => {
                           </NavItem>
                           <NavItem>
                               <NavLinks 
-                              to='products'
+                              to='blog'
                               smooth={true}
                               duration={500}
                               spy={true}
                               exact='true'
                               offset={-80} /* -80 because the nav is with -80 of margin */
-                              > Products </NavLinks>
+                              > Blog </NavLinks>
                           </NavItem>
                           <NavItem>
                               <NavLinks 

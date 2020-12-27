@@ -28,7 +28,7 @@ const Info = (props) => {
                            <Subtitle darkText={props.darkText}>{props.description}</Subtitle>
                            <BtnWrap>
                                <Button 
-                               to='home' 
+                               to={props.to} 
                                smooth={true}
                                duration={500}
                                spy={true}
