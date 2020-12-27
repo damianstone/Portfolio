@@ -8,7 +8,7 @@ export const  ProjectOne = {
     img: Project1,
     alt:'project x',
     alignItems: false, // flex-start - flex-end
-    name: 'Burguer App',
+    name: 'Machine Learning',
     nameBlack: false, // black or white
     boxGreen: true, // green or black
     description: 'A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.',
@@ -29,7 +29,7 @@ export const  ProjectTwo = {
     description: 'A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.',
     descriptionLight: true, // white or green 
     techIconBlack: false, // black or green
-    linkHref: 'http'
+    linkHref: 'https://damianstone.github.io/React-website/#/'
 };
 
 export const  ProjectThree = {
