@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Button } from '../ButtonStyle';
+import HeroImage from '../../svg/svg-2.svg';
 import { 
     HeroContainer,
     HeroContent,
@@ -49,7 +50,7 @@ const Hero = (props) => {
                     </HeroBtnWrap>
                 </HeroText>
                 <HeroImgWrap>
-                    <HeroImg src='/images/svg-2.svg' alt='' />
+                    <HeroImg src={HeroImage} alt='' />
                 </HeroImgWrap>
             </HeroContent>
         </HeroContainer>
