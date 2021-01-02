@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-
+import { DiJsBadge, DiNodejsSmall, DiReact, DiPython, DiGithubBadge } from "react-icons/di";
 import { 
     ProjectH2,
     ProjectWrap,
@@ -29,8 +29,16 @@ const Project = (props) => {
                 <ProjectTextWrap boxGreen={props.boxGreen}>
                     <ProjectP descriptionLight={props.descriptionLight}>{props.description}</ProjectP>
                 </ProjectTextWrap>
-                <ProjectTechWrap>
-                    <TechIcon techIconBlack={props.techIconBlack}>{props.children}</TechIcon>
+                <ProjectTechWrap flexStart={props.flexStart}>
+                    <TechIcon techIconBlack={props.techIconBlack}>
+                        <DiJsBadge/>
+                    </TechIcon>
+                    <TechIcon techIconBlack={props.techIconBlack}>
+                        <DiPython/>
+                    </TechIcon>
+                    <TechIcon techIconBlack={props.techIconBlack}>
+                        <DiReact/>
+                    </TechIcon>
                 </ProjectTechWrap>
                 <ProjectLinks>
                     <Link href={props.linkHref} target='_blank'><FiExternalLink/></Link>

@@ -8,6 +8,11 @@ export const FooterContainer = styled.footer`
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+
+    @media screen and (max-width: 768px) {
+        height: 100vh;
+    }
+    
 `;
 
 export const FooterTitle = styled.div`
@@ -18,6 +23,17 @@ export const FooterTitle = styled.div`
 export const FooterH1 = styled.h1`
     font-size: 30px;
     color: white;
+
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      margin-bottom: 24px;
+      width: 100%;
+      max-width: 1100px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 24px;
+      color: black;
+    }
 `;
 
 export const FooterSocial = styled.div`
@@ -26,6 +42,10 @@ export const FooterSocial = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `
 export const SocialLink = styled.a`
     width: 100%;

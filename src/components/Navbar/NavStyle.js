@@ -27,6 +27,10 @@ export const NavContainer = styled.div`
   width: 100%;
   padding: 0 30px;
   max-width: 100%;
+
+  @media screen and (max-width: 768px) {
+      padding: 0;
+    }
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -39,25 +43,45 @@ export const NavLogo = styled(LinkR)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+
+
 `;
 
 export const ReactLogo = styled.i`
     margin-left: 0.5rem;
     font-size: 1.6rem;
+
+    @media screen and (max-width: 768px) {
+      margin-left: 0;
+      font-size: 40px;
+    }
 `;
 
 export const MobileIcon = styled.div`
   display: none;
+  color: white;
 
   @media screen and (max-width: 768px) {
-    display: block;
+    /*display: block;
     position: absolute;
     top: 0;
     right: 0;
     transform: translate(-100%, 60% );
-    font-size: 1.8rem;
+    font-size: 50px;
     cursor: pointer;
     color: black;
+    padding: 10px; */
+
+    color: #fff;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+
   }
 `
 

@@ -10,7 +10,7 @@ export const HomeObjOne = {
     lightTextDesc: false,
     topLine: '',
     headline: 'About Me',
-    description: 'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work',
+    description: '',
     buttonLabel: 'Projects',
     imgStart: false, 
     img: Img1,

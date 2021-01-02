@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
     return (
-      <FooterContainer>
+      <FooterContainer id='contact'>
           <FooterTitle>
               <FooterH1>Get in touch</FooterH1>
           </FooterTitle>

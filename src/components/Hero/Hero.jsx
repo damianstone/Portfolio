@@ -32,7 +32,7 @@ const Hero = (props) => {
                     <HeroP>Hey! My name is</HeroP>
                     <HeroH1>Damian Stone</HeroH1>
                     <HeroH2>I turn ideas into code</HeroH2>
-                    <HeroP>I'm student of computer science at Uni of Bristol</HeroP>
+                    <HeroP>Computer Science student at University of Bristol</HeroP>
                     <HeroBtnWrap>
                         <Button
                         to='work' 
@@ -45,7 +45,7 @@ const Hero = (props) => {
                         spy={true}
                         exact='true'
                         offset={-80}
-                        >Lets Work  {hover ? <ArrowForward /> : <ArrowRight/>}
+                        >Let's Work {hover ? <ArrowForward /> : <ArrowRight/>}
                         </Button>
                     </HeroBtnWrap>
                 </HeroText>

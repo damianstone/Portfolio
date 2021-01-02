@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { FaBars } from 'react-icons/fa';
+import { BiMenuAltRight } from "react-icons/bi";
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 import { 
@@ -39,9 +39,9 @@ const Navbar = ({ toggle }) => {
         <IconContext.Provider value={{color: 'black'}}>
             <Nav scrollNav={scrollNav}>
                 <NavContainer>
-                      <NavLogo to="/" onClick={toggleHome}>Damian Stone<ReactLogo className='fab fa-react'></ReactLogo></NavLogo>
+                      <NavLogo to="/" onClick={toggleHome}><ReactLogo className='fab fa-react'></ReactLogo></NavLogo>
                       <MobileIcon onClick={toggle} >
-                          <FaBars />
+                          <BiMenuAltRight />
                       </MobileIcon>
                       <NavMenu>
                           <NavItem>

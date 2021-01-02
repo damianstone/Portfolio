@@ -5,6 +5,11 @@ export const HeroContainer = styled.div`
   background: #f9f9f9;
   width: 100%;
   height: 100vh;
+  z-index: 1;
+
+  @media screen and (max-width: 768px) {
+      padding: 180px 0 100px 0;
+    }
 `;
 
 export const HeroContent = styled.div`
@@ -15,6 +20,14 @@ export const HeroContent = styled.div`
   width: 100%;
   height: 100%;
   padding: 60px 40px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const HeroText = styled.div`
@@ -22,6 +35,11 @@ export const HeroText = styled.div`
       flex-direction: column;
       justify-content: center;
       padding: 50px 50px;
+
+      @media screen and (max-width: 768px) {
+      padding: 50px 0px;
+    }
+
 `;
 
 export const HeroP = styled.p`
@@ -31,18 +49,31 @@ export const HeroP = styled.p`
     width: 60%;
     padding: 5px;
     margin: 10px 0px 10px 4px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 14px;
+      padding: 0;
+    }
 `;
 
 export const HeroH1 = styled.h1`
   margin-bottom: 1rem;
   color:#0FE47A;
   font-size: 50px;
+
+  @media screen and (max-width: 768px) {
+      font-size: 32px;
+    }
 `;
 
 export const HeroH2 = styled.h1`
       margin-bottom: 1rem;
       line-height: 0.9;
       font-size: 50px;
+
+      @media screen and (max-width: 768px) {
+      font-size: 25px;
+    }
 `;
 
 export const HeroBtnWrap = styled.div`
@@ -52,12 +83,21 @@ export const HeroBtnWrap = styled.div`
 export const HeroImgWrap = styled.div`
   width: auto;
   height: auto;
+
+  @media screen and (max-width: 768px) {
+      padding-top: 2%;
+    }
 `;
 
 export const HeroImg = styled.img`
     width: 600px;
     height: 600px;
     justify-content: end;
+
+    @media screen and (max-width: 768px) {
+      width: 300px;
+      height: 300px;
+  }
 `;
 
 export const ArrowForward = styled(MdArrowForward)`
