@@ -1,26 +1,32 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b72042a4.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9e4db9fc.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9e4db9fc.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.33f14fcf.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.33f14fcf.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c4ba7985.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c4ba7985.js.map",
-    "static/js/2.cc44d3ea.chunk.js": "/Portfolio/static/js/2.cc44d3ea.chunk.js",
-    "static/js/2.cc44d3ea.chunk.js.map": "/Portfolio/static/js/2.cc44d3ea.chunk.js.map",
+    "static/js/2.ca72a156.chunk.js": "/Portfolio/static/js/2.ca72a156.chunk.js",
+    "static/js/2.ca72a156.chunk.js.map": "/Portfolio/static/js/2.ca72a156.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/main.b72042a4.chunk.css.map": "/Portfolio/static/css/main.b72042a4.chunk.css.map",
-    "static/js/2.cc44d3ea.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.cc44d3ea.chunk.js.LICENSE.txt",
+    "static/js/2.ca72a156.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ca72a156.chunk.js.LICENSE.txt",
+    "static/media/django.c1f757f4.svg": "/Portfolio/static/media/django.c1f757f4.svg",
+    "static/media/js-svg.19600440.svg": "/Portfolio/static/media/js-svg.19600440.svg",
+    "static/media/project-1.8d49fb08.png": "/Portfolio/static/media/project-1.8d49fb08.png",
     "static/media/project-2.90cf9491.png": "/Portfolio/static/media/project-2.90cf9491.png",
     "static/media/project-3.6834458c.png": "/Portfolio/static/media/project-3.6834458c.png",
     "static/media/project-4.49053f0f.png": "/Portfolio/static/media/project-4.49053f0f.png",
+    "static/media/python.58d5a0a7.svg": "/Portfolio/static/media/python.58d5a0a7.svg",
+    "static/media/react.2d80508d.svg": "/Portfolio/static/media/react.2d80508d.svg",
+    "static/media/shopify.d5ef9e65.svg": "/Portfolio/static/media/shopify.d5ef9e65.svg",
     "static/media/svg-1.ad58da86.svg": "/Portfolio/static/media/svg-1.ad58da86.svg",
     "static/media/svg-2.2a1843ff.svg": "/Portfolio/static/media/svg-2.2a1843ff.svg",
     "static/media/svg-3.55740b06.svg": "/Portfolio/static/media/svg-3.55740b06.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c4ba7985.js",
-    "static/js/2.cc44d3ea.chunk.js",
+    "static/js/2.ca72a156.chunk.js",
     "static/css/main.b72042a4.chunk.css",
-    "static/js/main.9e4db9fc.chunk.js"
+    "static/js/main.33f14fcf.chunk.js"
   ]
 }
