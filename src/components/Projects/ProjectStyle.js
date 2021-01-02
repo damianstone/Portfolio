@@ -72,8 +72,9 @@ export const ProjectImgWrap = styled.div`
     grid-area: image;
 
     @media screen and (max-width: 768px) {
-      width: 300px;
+      width: 100%;
       height: 180px;
+      text-align:center;
     }
     
 `
