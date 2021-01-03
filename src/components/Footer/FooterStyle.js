@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-    background:#0FE47A;
+    background:#393e46;
     width: 100%;
     height: 100%;
     display: flex;
@@ -32,7 +32,6 @@ export const FooterH1 = styled.h1`
       margin-right: auto;
       margin-left: auto;
       padding: 0 24px;
-      color: black;
     }
 `;
 
@@ -54,6 +53,10 @@ export const SocialLink = styled.a`
     text-decoration: none;
     color: white;
     text-align: center;
+
+    &:hover {
+        color: #0FE47A;
+    }
 `;
 
 /*  verde agua => #0FE47A

@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-  background: #f9f9f9;
+  background: #393e46;
   width: 100%;
   height: 100vh;
   z-index: 1;
 
   @media screen and (max-width: 768px) {
-      padding: 180px 0 100px 0;
+      padding: 50px 0 100px 0;
     }
 `;
 
@@ -27,6 +27,7 @@ export const HeroContent = styled.div`
     padding: 60px 40px;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
 `;
 
@@ -37,13 +38,13 @@ export const HeroText = styled.div`
       padding: 50px 50px;
 
       @media screen and (max-width: 768px) {
-      padding: 50px 0px;
+      padding: 20px 0px 20px 0px;
     }
 
 `;
 
 export const HeroP = styled.p`
-    color: black;
+    color: white;
     justify-content: flex-start;
     font-weight: 400;
     width: 60%;
@@ -70,6 +71,7 @@ export const HeroH2 = styled.h1`
       margin-bottom: 1rem;
       line-height: 0.9;
       font-size: 50px;
+      color: white;
 
       @media screen and (max-width: 768px) {
       font-size: 25px;

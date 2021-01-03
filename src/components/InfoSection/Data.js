@@ -6,8 +6,8 @@ export const HomeObjOne = {
     to: 'projects',
     id: 'about',
     lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: '',
     headline: 'About Me',
     description: '',
@@ -17,15 +17,15 @@ export const HomeObjOne = {
     alt: 'Car',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: false
 };
 
 export const HomeObjTwo = {
     to: 'home',
     id: 'work',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'DVSOFT',
     headline: 'Dream your ideas, we become it into reality',
     description: 'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work.',
@@ -35,7 +35,7 @@ export const HomeObjTwo = {
     alt: 'app',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: false
 };
 
 export const HomeObjThree = {

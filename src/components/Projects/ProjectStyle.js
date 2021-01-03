@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ProjectContainer = styled.section`
 width: 100%;
 height: auto;
-background-color: #000;
+background-color: #393e46;
 align-items: center;
 padding: 100px 80px 150px 80px;
 
@@ -46,7 +46,7 @@ align-items: center;
 max-width: 100%;
 height: 100%;
 padding: 60px 120px;
-background: ${({lightBg}) => (lightBg ? '#f9f9f9' : 'black')};
+background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#393e46')};
 
 grid-template-areas: ${({ imgStart }) => ( imgStart ? `'info image'` : `'image info'` )};
 
