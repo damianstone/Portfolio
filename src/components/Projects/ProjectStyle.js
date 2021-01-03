@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const ProjectContainer = styled.section`
 width: 100%;
@@ -23,7 +23,7 @@ text-align: center;
 
 export const ProjectH1 = styled.h1`
 color: white;
-font-size: 35px;
+font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
 margin-bottom: 20px;
@@ -46,13 +46,13 @@ align-items: center;
 max-width: 100%;
 height: 100%;
 padding: 60px 120px;
-background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#393e46')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#393e46')};
 
-grid-template-areas: ${({ imgStart }) => ( imgStart ? `'info image'` : `'image info'` )};
+grid-template-areas: ${({ imgStart }) => (imgStart ? '\'info image\'' : '\'image info\'')};
 
 @media screen and (max-width: 768px) {
     grid-template-rows: 30% 70%;
-    grid-template-areas: ${({ imgStart }) => ( imgStart ? `'image image' 'info info'` : `'image image' 'info info'` )};
+    grid-template-areas: ${({ imgStart }) => (imgStart ? '\'image image\' \'info info\'' : '\'image image\' \'info info\'')};
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -76,7 +76,7 @@ export const ProjectImgWrap = styled.div`
       text-align:center;
     }
     
-`
+`;
 
 export const ProjectImg = styled.img`
     margin: 0 0 10px 0;
@@ -94,7 +94,7 @@ export const ProjectImg = styled.img`
 export const ProjectInfoWrap = styled.div`
 display: flex;
 flex-direction: column;
-align-items: ${({alignItems}) => (alignItems ? 'flex-start' : 'flex-end')};
+align-items: ${({ alignItems }) => (alignItems ? 'flex-start' : 'flex-end')};
 padding: 20px 20px;
 grid-area: info;
 
@@ -113,7 +113,7 @@ font-size: 1.2rem;
 
 export const ProjectH2 = styled.h2`
 line-height: 1.1;
-color: ${({nameBlack}) => (nameBlack ? 'black' : 'white')};
+color: ${({ nameBlack }) => (nameBlack ? 'black' : 'white')};
 font-size: 1.5rem;
 font-weight: 600;
 margin: 0px 0px 20px;
@@ -125,7 +125,7 @@ export const ProjectTextWrap = styled.div`
     z-index: 2;
     padding: 15px;
     border-radius: 5px;
-    background-color: ${({boxGreen}) => boxGreen ? '#0FE47A' : 'black'};
+    background-color: ${({ boxGreen }) => (boxGreen ? '#0FE47A' : 'black')};
     width: 95%;
 
     @media screen and (max-width: 768px) {
@@ -134,7 +134,7 @@ export const ProjectTextWrap = styled.div`
 `;
 
 export const ProjectP = styled.p`
-    color:${({descriptionLight}) => (descriptionLight ? 'white' : '#0FE47A')};
+    color:${({ descriptionLight }) => (descriptionLight ? 'white' : '#0FE47A')};
     font-size: 15px;
 
     @media screen and (max-width: 768px) {
@@ -146,7 +146,7 @@ export const ProjectTechWrap = styled.div`
 width: 70%;
 display: flex;
 flex-direction: row;
-justify-content: ${({flexStart}) => (flexStart ? 'flex-start' : 'flex-end')};
+justify-content: ${({ flexStart }) => (flexStart ? 'flex-start' : 'flex-end')};
 margin-top: 20px;
 
 @media screen and (max-width: 768px) {
@@ -159,7 +159,7 @@ font-size: 2.3rem;
 white-space: nowrap;
 padding: 10px;
 margin-right: 0;
-color: ${({techIconBlack}) => (techIconBlack ? 'black' : '#0FE47A')};
+color: ${({ techIconBlack }) => (techIconBlack ? 'black' : '#0FE47A')};
 `;
 
 export const ProjectLinks = styled.div`
@@ -181,4 +181,4 @@ text-decoration:none;
 &:hover {
     color: #6f42c1;
 }
-`
+`;

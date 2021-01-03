@@ -21,8 +21,11 @@ export const FooterTitle = styled.div`
 `;
 
 export const FooterH1 = styled.h1`
-    font-size: 30px;
     color: white;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 20px;
 
     @media screen and (max-width: 768px) {
       font-size: 32px;
