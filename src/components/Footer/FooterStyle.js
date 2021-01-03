@@ -10,7 +10,7 @@ export const FooterContainer = styled.footer`
     padding: 20px;
 
     @media screen and (max-width: 768px) {
-        height: 100vh;
+        height: 30vh;
     }
     
 `;
@@ -41,11 +41,7 @@ export const FooterSocial = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-    }
-`
+`;
 export const SocialLink = styled.a`
     width: 100%;
     font-size: 100px;
@@ -56,6 +52,10 @@ export const SocialLink = styled.a`
 
     &:hover {
         color: #0FE47A;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 50px;
     }
 `;
 

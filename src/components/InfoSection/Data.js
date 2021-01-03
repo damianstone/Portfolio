@@ -27,7 +27,7 @@ export const HomeObjTwo = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'DVSOFT',
-    headline: 'Dream your ideas, we become it into reality',
+    headline: 'Dream your ideas. We make them come true',
     description: 'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work.',
     buttonLabel: 'Meet the team',
     imgStart: true, 

@@ -24,7 +24,7 @@ export const HeroContent = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 30px 40px;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -38,7 +38,7 @@ export const HeroText = styled.div`
       padding: 50px 50px;
 
       @media screen and (max-width: 768px) {
-      padding: 20px 0px 20px 0px;
+      padding: 0px 0px 20px 0px;
     }
 
 `;

@@ -29,7 +29,7 @@ const Hero = (props) => {
         <HeroContainer id='home'>
             <HeroContent>
                 <HeroText>
-                    <HeroP>Hey! My name is</HeroP>
+                    <HeroP>Hey! 👋  My name is</HeroP>
                     <HeroH1>Damian Stone</HeroH1>
                     <HeroH2>I turn ideas into code</HeroH2>
                     <HeroP>Computer Science student at University of Bristol</HeroP>

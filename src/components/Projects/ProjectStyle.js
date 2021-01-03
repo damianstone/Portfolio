@@ -67,7 +67,6 @@ export const ProjectImgWrap = styled.div`
     width: 550px;
     height: 300px;
     z-index: 3;
-    box-shadow: 0 10px 30px -15px;
     border-radius: 10px;
     grid-area: image;
 
@@ -84,6 +83,7 @@ export const ProjectImg = styled.img`
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    box-shadow: 0 10px 30px -15px;
 
     @media screen and (max-width: 768px) {
       width: auto;

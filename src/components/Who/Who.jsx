@@ -31,13 +31,13 @@ const Info = (props) => {
                        <TextWrapper>
                            <Heading lightText={props.lightText}>{props.headline}</Heading>
                            <Subtitle darkText={props.darkText}>
-                               Hello! Im Damian, a student of computer science at University of Bristol. 
+                               Hello! I'm Damian, from Chile 🇨🇱, currently stuying computer science at the University of Bristol 🇬🇧
                                <br/> <br/>
-                               I create this portfolio just for fun. I hope to start writing blogs about books I read and share programming projects
+                               I created this portfolio just for fun. I hope to start blogging about the books I read and share programming projects 😎
                                <br/> <br/>
-                               Although at the moment I am not looking for a project to work on. Me and my team are open to receiving applications on <Alink to='work'>DVsoft</Alink>.
+                               Although at the moment, I am not looking for a project to work on. My team and I are open to receiving requests on <Alink to='work'>DVsoft</Alink>
                                <br/> <br/>
-                               Here are a few technologies Ive been working with recently:
+                               Here is my toolkit: 🚀
                             </Subtitle>
                            <TechWrap>
                                 <TechIconWrap>
