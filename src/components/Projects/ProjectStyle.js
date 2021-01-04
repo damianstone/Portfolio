@@ -5,7 +5,7 @@ width: 100%;
 height: auto;
 background-color: #393e46;
 align-items: center;
-padding: 100px 80px 150px 80px;
+padding: 100px 80px 100px 80px;
 
 @media screen and (max-width: 768px) {
       padding: 100px 0;
