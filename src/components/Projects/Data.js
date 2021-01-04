@@ -19,14 +19,16 @@ export const ProjectOne = {
   flexStart: false, // flex-start - flex-end
   linkWeb: 'http',
   linkGit: 'http',
+  // TECNOLOGY ICONS
 
-  js: false,
+  js: true,
   node: false,
   react: false,
   python: true,
   django: true,
   shopify: false,
   mailchimp: false,
+
 };
 
 export const ProjectTwo = {
@@ -45,11 +47,11 @@ export const ProjectTwo = {
   flexStart: true, // flex-start - flex-end
   linkWeb: 'https://damianstone.github.io/React-website/#/',
   linkGit: 'http',
-
+  // TECNOLOGY ICONS
   js: true,
   node: true,
   react: true,
-  python: false,
+  python: true,
   django: false,
   shopify: false,
   mailchimp: false,
@@ -71,11 +73,11 @@ export const ProjectThree = {
   flexStart: false, // flex-start - flex-end
   linkWeb: 'http',
   linkGit: 'http',
-
+  // TECNOLOGY ICONS
   js: true,
-  node: false,
+  node: true,
   react: true,
-  python: false,
+  python: true,
   django: false,
   shopify: false,
   mailchimp: false,
@@ -96,10 +98,10 @@ export const ProjectFour = {
   flexStart: true, // flex-start - flex-end
   linkWeb: 'http',
   linkGit: 'http',
-
-  js: false,
-  node: false,
-  react: false,
+  // TECNOLOGY ICONS
+  js: true,
+  node: true,
+  react: true,
   python: false,
   django: false,
   shopify: true,

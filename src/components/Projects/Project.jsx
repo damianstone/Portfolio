@@ -19,6 +19,38 @@ import {
 
 const Project = (props) => {
 
+  const techTrue = [];
+
+  if (props.js) {
+    techTrue.push(<DiJsBadge />);
+  }
+  if (props.mailchimp) {
+    techTrue.push(<FaMailchimp />);
+  }
+  if (props.shopify) {
+    techTrue.push(<FaShopify />);
+  }
+  if (props.react) {
+    techTrue.push(<DiReact />);
+  }
+  if (props.node) {
+    techTrue.push(<DiNodejsSmall />);
+  }
+  if (props.python) {
+    techTrue.push(<DiPython />);
+  }
+  if (props.django) {
+    techTrue.push(<DiDjango />);
+  }
+
+  const techs = techTrue.map((elem) => {
+    return (
+      <TechIcon techIconBlack={props.techIconBlack} key={1}>
+        {elem}
+      </TechIcon>
+    );
+  });
+
   return (
     <>
       <ProjectWrap lightBg={props.lightBg} imgStart={props.imgStart}>
@@ -32,27 +64,7 @@ const Project = (props) => {
             <ProjectP descriptionLight={props.descriptionLight}>{props.description}</ProjectP>
           </ProjectTextWrap>
           <ProjectTechWrap flexStart={props.flexStart}>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.js ? <DiJsBadge /> : null}
-            </TechIcon>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.node ? <DiNodejsSmall /> : null}
-            </TechIcon>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.react ? <DiReact /> : null}
-            </TechIcon>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.python ? <DiPython /> : null}
-            </TechIcon>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.django ? <DiDjango /> : null}
-            </TechIcon>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.shopify ? <FaShopify /> : null}
-            </TechIcon>
-            <TechIcon techIconBlack={props.techIconBlack}>
-              {props.mailchimp ? <FaMailchimp /> : null}
-            </TechIcon>
+            {techs}
           </ProjectTechWrap>
           <ProjectLinks>
             <Link href={props.linkWeb} target='_blank'><FiExternalLink /></Link>
