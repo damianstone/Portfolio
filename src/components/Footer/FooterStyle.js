@@ -44,6 +44,12 @@ export const FooterSocial = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 `;
 export const SocialLink = styled.a`
     width: 100%;

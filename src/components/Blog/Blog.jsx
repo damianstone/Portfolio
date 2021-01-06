@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import BlogItems from './BlogItems';
 import {
   BlogSection,
@@ -10,7 +11,9 @@ const Blog = (props) => {
   return (
     <BlogSection id='blog'>
       <SectionTitle>
-        <Title>Blog</Title>
+        <Link to='/blog'>
+          <Title>Blog</Title>
+        </Link>
       </SectionTitle>
       <BlogItems />
       <BlogItems />

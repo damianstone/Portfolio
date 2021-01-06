@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
           <NavContainer>
             <NavLogo to='/' onClick={toggleHome}><ReactLogo className='fab fa-react' /></NavLogo>
             <MobileIcon onClick={toggle}>
-              <BiMenuAltRight />
+              <BiMenuAltRight style={{ color: 'white' }} />
             </MobileIcon>
             <NavMenu>
               <NavItem>

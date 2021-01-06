@@ -33,9 +33,10 @@ margin-bottom: 20px;
       margin-bottom: 24px;
       width: 100%;
       max-width: 1100px;
-      margin-right: auto;
-      margin-left: auto;
-      padding: 0 24px;
+      text-align: center;
+      padding: 0 30px;
+      line-height: 1.1;
+      font-weight: 600;
     }
 `;
 

@@ -72,7 +72,7 @@ export const MobileIcon = styled.div`
     color: black;
     padding: 10px; */
 
-    color: #393e46;
+    color: white;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 50px;

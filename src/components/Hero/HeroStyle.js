@@ -5,10 +5,11 @@ export const HeroContainer = styled.div`
   background: #393e46;
   width: 100%;
   height: 100vh;
+  margin-top: 80px;
   z-index: 1;
 
   @media screen and (max-width: 768px) {
-    padding: 50px 0 100px 0;
+    padding: 80px 0 100px 0;
   }
 `;
 
@@ -19,13 +20,13 @@ export const HeroContent = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 60px 40px;
+  padding: 0 40px 60px 40px;
 
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    padding: 30px 40px;
-    justify-content: center;
+    padding: 0px 40px;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
   }
