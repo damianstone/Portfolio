@@ -13,6 +13,7 @@ import {
   ImgWrap,
   Column2,
   Img,
+  A,
 } from './InfoStyle';
 
 const Info = (props) => (
@@ -27,17 +28,13 @@ const Info = (props) => (
               <Subtitle darkText={props.darkText}>{props.description}</Subtitle>
               <BtnWrap>
                 <Button
-                  to={props.to}
-                  smooth
-                  duration={500}
-                  spy
-                  exact='true'
-                  offset={-80}
                   primary={props.primary ? 1 : 0}
                   dark={props.dark ? 1 : 0}
                   dark2={props.dark2 ? 1 : 0}
                 >
-                  {props.buttonLabel}
+                  <A href={props.website} target='_blank'>
+                    {props.buttonLabel}
+                  </A>
                 </Button>
               </BtnWrap>
             </TextWrapper>

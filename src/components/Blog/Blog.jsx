@@ -1,23 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import BlogItems from './BlogItems';
 import {
   BlogSection,
   SectionTitle,
   Title,
 } from './BlogStyle';
+import { BlogOne } from './Data';
 
 const Blog = (props) => {
   return (
     <BlogSection id='blog'>
       <SectionTitle>
-        <Link to='/blog'>
-          <Title>Blog</Title>
-        </Link>
+        <Title>Blog</Title>
       </SectionTitle>
-      <BlogItems />
-      <BlogItems />
-      <BlogItems />
+      <BlogItems {...BlogOne} />
     </BlogSection>
   );
 };

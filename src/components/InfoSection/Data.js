@@ -1,8 +1,7 @@
 import Img1 from '../../svg/svg-1.svg';
 import Img2 from '../../svg/svg-3.svg';
-import Img3 from '../../svg/svg-2.svg';
 
-export const HomeObjOne = {
+export const WhoObj = {
   to: 'projects',
   id: 'about',
   lightBg: true,
@@ -20,8 +19,9 @@ export const HomeObjOne = {
   darkText: false,
 };
 
-export const HomeObjTwo = {
-  to: 'home',
+export const DvsoftObj = {
+  to: 'http://dvsoft.cl/',
+  website: 'http://dvsoft.cl/',
   id: 'work',
   lightBg: false,
   lightText: true,
@@ -38,20 +38,3 @@ export const HomeObjTwo = {
   darkText: false,
 };
 
-export const HomeObjThree = {
-  id: 'signup',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'DVSOFT',
-  headline: 'section 3',
-  description:
-    'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work',
-  buttonLabel: 'Our projects',
-  imgStart: false,
-  img: Img3,
-  alt: 'multiplatform',
-  dark: false,
-  primary: false,
-  darkText: true,
-};

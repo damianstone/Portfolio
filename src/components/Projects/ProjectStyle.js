@@ -183,3 +183,16 @@ text-decoration:none;
     color: #6f42c1;
 }
 `;
+
+export const ExternalLink = styled.a`
+font-size: 1.2rem;
+padding: 5px;
+white-space: nowrap;
+color: white;
+cursor: pointer;
+text-decoration:none;
+
+&:hover {
+    color: black;
+}
+`;

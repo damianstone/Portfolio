@@ -15,6 +15,7 @@ import {
   TechIcon,
   ProjectLinks,
   Link,
+  ExternalLink,
 } from './ProjectStyle';
 
 const Project = (props) => {
@@ -51,6 +52,16 @@ const Project = (props) => {
     );
   });
 
+  let external = null;
+
+  if (props.linkWeb !== null) {
+    external = (
+      <ExternalLink href={props.linkWeb} target='_blank'>
+        <FiExternalLink />
+      </ExternalLink>
+    );
+  }
+
   return (
     <>
       <ProjectWrap lightBg={props.lightBg} imgStart={props.imgStart}>
@@ -67,7 +78,7 @@ const Project = (props) => {
             {techs}
           </ProjectTechWrap>
           <ProjectLinks>
-            <Link href={props.linkWeb} target='_blank'><FiExternalLink /></Link>
+            {external}
             <Link href={props.linkGit} target='_blank'><FiGithub /></Link>
           </ProjectLinks>
         </ProjectInfoWrap>

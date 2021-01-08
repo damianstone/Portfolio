@@ -17,7 +17,7 @@ export const ProjectOne = {
   descriptionLight: true, // white or green
   techIconBlack: false, // black or green
   flexStart: false, // flex-start - flex-end
-  linkWeb: 'http',
+  linkWeb: null,
   linkGit: 'http',
   // TECNOLOGY ICONS
 
@@ -71,7 +71,7 @@ export const ProjectThree = {
   descriptionLight: true, // white or green
   techIconBlack: false, // black or green
   flexStart: false, // flex-start - flex-end
-  linkWeb: 'http',
+  linkWeb: null,
   linkGit: 'http',
   // TECNOLOGY ICONS
   js: true,
@@ -94,7 +94,7 @@ export const ProjectFour = {
   boxGreen: true, // green or black
   description: 'A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.',
   descriptionLight: true, // white or green
-  techIconBlack: false, // black or green
+  techIconBlack: true, // black or green
   flexStart: true, // flex-start - flex-end
   linkWeb: 'http',
   linkGit: 'http',

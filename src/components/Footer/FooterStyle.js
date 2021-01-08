@@ -46,9 +46,7 @@ export const FooterSocial = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 768px) {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+
     }
 `;
 export const SocialLink = styled.a`
@@ -60,11 +58,12 @@ export const SocialLink = styled.a`
     text-align: center;
 
     &:hover {
-        color: #0FE47A;
+        color: black;
     }
 
     @media screen and (max-width: 768px) {
         font-size: 50px;
+        padding: 10px;
     }
 `;
 

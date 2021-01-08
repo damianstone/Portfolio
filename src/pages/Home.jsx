@@ -7,7 +7,7 @@ import Info from '../components/InfoSection/Info';
 import Projects from '../components/Projects/Projects';
 import Blog from '../components/Blog/Blog';
 import Footer from '../components/Footer/Footer';
-import { HomeObjOne, HomeObjTwo } from '../components/InfoSection/Data';
+import { DvsoftObj, WhoObj } from '../components/InfoSection/Data';
 
 const Home = (props) => {
 
@@ -21,10 +21,10 @@ const Home = (props) => {
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Hero />
-      <Who {...HomeObjOne} />
+      <Who {...WhoObj} />
       <Projects />
       <Blog />
-      <Info {...HomeObjTwo} />
+      <Info {...DvsoftObj} />
       <Footer />
     </>
   );

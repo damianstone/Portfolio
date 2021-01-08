@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaGoodreads, FaInstagram, FaLinkedin, FaMedium } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaMedium } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import {
   FooterContainer,
@@ -30,9 +30,6 @@ const Footer = () => {
         </SocialLink>
         <SocialLink href='https://www.linkedin.com/in/damian-stone-796a0318b/' target='_blank'>
           <FaInstagram />
-        </SocialLink>
-        <SocialLink href='https://www.goodreads.com/damianstone' target='_blank'>
-          <FaGoodreads />
         </SocialLink>
       </FooterSocial>
     </FooterContainer>
