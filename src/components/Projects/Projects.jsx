@@ -12,7 +12,7 @@ const Projects = (props) => {
   return (
     <ProjectContainer id='projects'>
       <SectionTitle>
-        <ProjectH1>Things Ive Built</ProjectH1>
+        <ProjectH1>Projects</ProjectH1>
       </SectionTitle>
       <Project {...ProjectFour} />
       <Project {...ProjectOne} />

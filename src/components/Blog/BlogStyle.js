@@ -45,6 +45,7 @@ export const BlogWrap = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 50px 0;
 
   @media screen and (max-width: 768px) {
     padding: 0px;
@@ -54,7 +55,7 @@ export const BlogWrap = styled.div`
 
 export const BlogContainer = styled.div`
   width: 1080px;
-  height: 270;
+  height: 270px;
   display: grid;
   align-items: center;
   border-bottom: 2px solid #0FE47A;
@@ -63,7 +64,8 @@ export const BlogContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    padding: 70px 8px 20px 8px;
+    height: auto;
+    padding: 40px 8px 20px 8px;
     grid-template-columns: 60% 40%;
     grid-template-rows: 120px auto;
     grid-template-areas: 'column2 column3'

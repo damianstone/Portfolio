@@ -58,7 +58,7 @@ grid-template-areas: ${({ imgStart }) => (imgStart ? '\'info image\'' : '\'image
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
-    padding: 50px 24px;
+    padding: 50px  24px 30px 24px;
 }
 
 `;
