@@ -1,5 +1,6 @@
 import React from 'react';
-import { SidebarContainer,
+import {
+  SidebarContainer,
   Icon,
   CloseIcon,
   SidebarWrapper,

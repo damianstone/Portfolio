@@ -1,0 +1,34 @@
+.main { /* SAME STYLES QUE IMG WRAP */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 550px;
+    height: 300px;
+    z-index: 3;
+    border-radius: 10px;
+    grid-area: image;
+  }
+
+  @media screen and (max-width: 768px) {
+    .main {
+      width: auto;
+      height: 180px;
+      text-align:center;
+    }
+  }
+  
+  .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 62, 70, 0.7);
+  }
+  
+
+
+/* 
+GREY RGBA => rgba(57, 62, 70, 1)
+GREEN RGBA => rgba(15, 228, 122, 1)
+*/
