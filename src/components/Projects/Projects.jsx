@@ -1,19 +1,16 @@
 import React from 'react';
 import Project from './Project';
+import SectionTitle from '../UI/SectionTitle/SectionTitle';
 import { ProjectOne, ProjectTwo, ProjectThree, ProjectFour } from './Data';
 import {
   ProjectContainer,
-  SectionTitle,
-  ProjectH1,
 } from './ProjectStyle';
 
 const Projects = (props) => {
 
   return (
     <ProjectContainer id='projects'>
-      <SectionTitle>
-        <ProjectH1>Projects</ProjectH1>
-      </SectionTitle>
+      <SectionTitle title='Projects' />
       <Project {...ProjectFour} />
       <Project {...ProjectOne} />
       <Project {...ProjectTwo} />

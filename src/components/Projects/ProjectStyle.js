@@ -12,34 +12,6 @@ padding: 100px 80px 100px 80px;
     }
 `;
 
-export const SectionTitle = styled.div`
-width: 100%;
-text-align: center;
-
-@media screen and (max-width: 768px) {
-      text-align: left;
-    }
-`;
-
-export const ProjectH1 = styled.h1`
-color: white;
-font-size: 48px;
-line-height: 1.1;
-font-weight: 600;
-margin-bottom: 20px;
-
-@media screen and (max-width: 768px) {
-      font-size: 32px;
-      margin-bottom: 24px;
-      width: 100%;
-      max-width: 1100px;
-      text-align: center;
-      padding: 0 30px;
-      line-height: 1.1;
-      font-weight: 600;
-    }
-`;
-
 export const ProjectWrap = styled.div`
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -85,6 +57,7 @@ export const ProjectImg = styled.img`
     height: 100%;
     border-radius: 10px;
     box-shadow: 0 10px 30px -15px;
+    cursor: pointer;
 
     @media screen and (max-width: 768px) {
       width: auto;

@@ -2,17 +2,14 @@ import React from 'react';
 import BlogItems from './BlogItems';
 import {
   BlogSection,
-  SectionTitle,
-  Title,
 } from './BlogStyle';
 import { BlogOne } from './Data';
+import SectionTitle from '../UI/SectionTitle/SectionTitle';
 
 const Blog = (props) => {
   return (
     <BlogSection id='blog'>
-      <SectionTitle>
-        <Title>Blog</Title>
-      </SectionTitle>
+      <SectionTitle title='Blog' />
       <BlogItems {...BlogOne} />
     </BlogSection>
   );

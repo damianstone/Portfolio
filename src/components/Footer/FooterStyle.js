@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
     background:#393e46;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,27 +15,45 @@ export const FooterContainer = styled.footer`
     
 `;
 
-export const FooterTitle = styled.div`
-    text-align: center;
-    margin-bottom: 1%;
+export const FooterWrap = styled.div`
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+height: 100%;
+
 `;
 
-export const FooterH1 = styled.h1`
-    color: white;
-    font-size: 48px;
-    line-height: 1.1;
-    font-weight: 600;
-    margin-bottom: 20px;
+export const FooterHello = styled.div`
+box-sizing: border-box;
+justify-content: center;
+width: 70%;
+height: 370px;
 
-    @media screen and (max-width: 768px) {
-      font-size: 32px;
-      margin-bottom: 24px;
-      width: 100%;
-      max-width: 1100px;
-      margin-right: auto;
-      margin-left: auto;
-      padding: 0 24px;
-    }
+`;
+
+export const TextContainer = styled.div`
+padding: 5px;
+display: flex;
+justify-content: center;
+flex-direction:column;
+
+
+`;
+
+export const Text = styled.p`
+color: white;
+font-size: 24px;
+width: 70%;
+align-self: center;
+margin-bottom: 20px;
+
+`;
+
+export const BtnWrap = styled.div`
+  display: flex;
+  justify-content: center;
+
 `;
 
 export const FooterSocial = styled.div`
