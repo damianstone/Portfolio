@@ -110,6 +110,7 @@ export const Preview = styled.a`
 
   &:hover {
       color: white;
+      transition: 0.3s ease-in-out;
   }
 
   @media screen and (max-width: 768px) {

@@ -23,6 +23,11 @@ class Footer extends Component {
 
   handleForm = () => {
     this.setState({ showForm: true });
+    if (this.state.showForm === false) {
+      setTimeout(() => {
+        this.setState({ showForm: false });
+      }, 120000); // wait 5 seconds, then reset to false
+    }
   };
 
   render() {

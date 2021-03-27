@@ -17,7 +17,6 @@ import {
   Link,
   ExternalLink,
 } from './ProjectStyle';
-import FillAuto from '../../Animations/fillAuto/FillAuto';
 
 const Project = (props) => {
 
@@ -67,9 +66,7 @@ const Project = (props) => {
     <>
       <ProjectWrap lightBg={props.lightBg} imgStart={props.imgStart}>
         <ProjectImgWrap>
-          <FillAuto>
-            <ProjectImg src={props.img} alt={props.img} />
-          </FillAuto>
+          <ProjectImg src={props.img} alt={props.img} />
         </ProjectImgWrap>
         <ProjectInfoWrap alignItems={props.alignItems}>
           <ProjectOverline>Featured Project</ProjectOverline>

@@ -3,14 +3,15 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
     background:#393e46;
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 80px 24px 0px 24px;
+    box-sizing: border-box;
 
     @media screen and (max-width: 768px) {
-        height: 30vh;
+        height: 100vh;
     }
     
 `;
@@ -21,6 +22,7 @@ justify-content: space-around;
 flex-direction: column;
 align-items: center;
 height: 100%;
+box-sizing: border-box;
 
 `;
 
@@ -28,7 +30,7 @@ export const FooterHello = styled.div`
 box-sizing: border-box;
 justify-content: center;
 width: 70%;
-height: 370px;
+height: auto;
 
 `;
 
@@ -37,6 +39,7 @@ padding: 5px;
 display: flex;
 justify-content: center;
 flex-direction:column;
+height: 80vh;
 
 
 `;
@@ -46,7 +49,13 @@ color: white;
 font-size: 24px;
 width: 70%;
 align-self: center;
-margin-bottom: 20px;
+margin-bottom: 20px; 
+text-align: center;
+
+@media screen and (max-width: 768px) {
+        width: 100%;
+        font-size: 19px;
+    }
 
 `;
 
@@ -58,10 +67,11 @@ export const BtnWrap = styled.div`
 
 export const FooterSocial = styled.div`
     align-self: center;
-    width: 80%;
+    width: 65%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    height: auto;
+    box-sizing: border-box;
 
     @media screen and (max-width: 768px) {
 
@@ -69,11 +79,12 @@ export const FooterSocial = styled.div`
 `;
 export const SocialLink = styled.a`
     width: 100%;
-    font-size: 100px;
+    font-size: 80px;
     cursor: pointer;
     text-decoration: none;
     color: white;
     text-align: center;
+    transition: 0.3s ease-in-out;
 
     &:hover {
         color: black;

@@ -6,6 +6,7 @@
     height: 300px;
     z-index: 3;
     border-radius: 10px;
+    cursor: pointer;
     grid-area: image;
   }
 
