@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
     background:#393e46;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,8 +70,8 @@ export const FooterSocial = styled.div`
     width: 65%;
     display: flex;
     flex-direction: row;
-    height: auto;
     box-sizing: border-box;
+    padding: 15px;
 
     @media screen and (max-width: 768px) {
 
