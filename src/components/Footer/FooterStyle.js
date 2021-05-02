@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import * as colors from '../colors';
 
 export const FooterContainer = styled.footer`
-    background:#393e46;
+    background: ${colors.black};
     width: 100%;
     height: 100%;
     display: flex;
@@ -87,7 +88,7 @@ export const SocialLink = styled.a`
     transition: 0.3s ease-in-out;
 
     &:hover {
-        color: black;
+        color: ${colors.grey};
     }
 
     @media screen and (max-width: 768px) {
@@ -97,7 +98,5 @@ export const SocialLink = styled.a`
 `;
 
 /*  verde agua => #0FE47A
-
 morado => linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1))
-
 */

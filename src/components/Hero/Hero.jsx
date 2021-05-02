@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Button from '../ButtonStyle';
-import HeroImage from '../../svg/svg-2.svg';
+import HeroImage from '../../svg/svg-4.svg';
 import {
   HeroContainer,
   HeroContent,
   HeroText,
   HeroP,
+  HeroP2,
   HeroH1,
   HeroH2,
   HeroBtnWrap,
@@ -32,21 +33,21 @@ const Hero = (props) => {
             <HeroP>Hey! 👋  My name is</HeroP>
             <HeroH1>Damian Stone</HeroH1>
             <HeroH2>I turn ideas into code</HeroH2>
-            <HeroP>Computer Science student at University of Bristol</HeroP>
+            <HeroP2>Computer Science student at University of Bristol</HeroP2>
             <HeroBtnWrap>
               <Button
                 to='work'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
-                primary={false}
-                dark={false}
+                primary={true}
+                dark={true}
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact='true'
                 offset={-80}
               >
-                Lets Work
+                My last proyect
                 {hover ? <ArrowForward /> : <ArrowRight />}
               </Button>
             </HeroBtnWrap>

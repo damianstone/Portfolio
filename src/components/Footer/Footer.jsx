@@ -46,7 +46,7 @@ class Footer extends Component {
               to say hi, Ill try my best to get back to you!
             </Text>
             <BtnWrap>
-              <Button onClick={this.handleForm}>Say Hello</Button>
+              <Button primary='true' onClick={this.handleForm}>Say Hello</Button>
             </BtnWrap>
           </TextContainer>
         </FooterHello>

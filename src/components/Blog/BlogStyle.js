@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import * as colors from '../colors';
 
 export const BlogSection = styled.section`
 width: 100%;
 height: auto;
-background-color: #393e46;
+background-color: ${colors.black};
 align-items: center;
 padding: 100px 80px 100px 80px;
 
@@ -58,7 +59,7 @@ export const BlogContainer = styled.div`
   height: 270px;
   display: grid;
   align-items: center;
-  border-bottom: 2px solid #0FE47A;
+  border-bottom: 2px solid ${colors.orange};
   grid-template-columns: 20% 20% 60%;
   grid-template-areas: 'column3 column2 column1';
 
@@ -154,7 +155,8 @@ margin-top: .8rem;
 
 export const Label = styled.p`
     font-size: 14px;
-    color: #999;
+    color: white;
+    margin-bottom: 5px;
 
     @media screen and (max-width: 768px) {
       font-size: 14px;
@@ -165,7 +167,7 @@ export const Label = styled.p`
 
 export const Info = styled.p`
  font-size: 16px;
- color: black;
+ color: ${colors.darkGrey};
 
  @media screen and (max-width: 768px) {
       font-size: 16px;

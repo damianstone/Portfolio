@@ -1,4 +1,4 @@
-import Img1 from '../../svg/svg-1.svg';
+import Img1 from '../../svg/svg-6.svg';
 import Img2 from '../../svg/svg-3.svg';
 
 export const WhoObj = {
@@ -34,7 +34,7 @@ export const DvsoftObj = {
   img: Img2,
   alt: 'app',
   dark: false,
-  primary: false,
+  primary: true,
   darkText: false,
 };
 

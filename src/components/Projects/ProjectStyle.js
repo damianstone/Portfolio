@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import { black, grey, darkGrey, orange } from '../colors';
 
 export const ProjectContainer = styled.section`
 width: 100%;
 height: auto;
-background-color: #393e46;
+background-color: ${black};
 align-items: center;
 padding: 100px 80px 100px 80px;
 
@@ -19,7 +20,7 @@ align-items: center;
 max-width: 100%;
 height: 100%;
 padding: 60px 120px;
-background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#393e46')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : black)};
 
 grid-template-areas: ${({ imgStart }) => (imgStart ? '\'info image\'' : '\'image info\'')};
 
@@ -55,7 +56,7 @@ export const ProjectImg = styled.img`
     margin: 0 0 10px 0;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 18px;
     box-shadow: 0 10px 30px -15px;
     cursor: pointer;
 
@@ -81,7 +82,7 @@ grid-area: info;
 export const ProjectOverline = styled.p`
 margin: 10px 0;
 font-weight: 400;
-color: #0FE47A;
+color: ${grey};
 font-size: 1.2rem;
 `;
 
@@ -98,8 +99,8 @@ export const ProjectTextWrap = styled.div`
     position: relative;
     z-index: 2;
     padding: 15px;
-    border-radius: 5px;
-    background-color: ${({ boxGreen }) => (boxGreen ? '#0FE47A' : 'black')};
+    border-radius: 18px;
+    background-color: ${({ boxGreen }) => (boxGreen ? orange : black)};
     width: 95%;
 
     @media screen and (max-width: 768px) {
@@ -133,7 +134,7 @@ font-size: 2.3rem;
 white-space: nowrap;
 padding: 10px;
 margin-right: 0;
-color: ${({ techIconBlack }) => (techIconBlack ? 'black' : '#0FE47A')};
+color: ${({ techIconBlack }) => (techIconBlack ? 'black' : grey)};
 `;
 
 export const ProjectLinks = styled.div`

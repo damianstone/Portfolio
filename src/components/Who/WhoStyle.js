@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
+import { black } from '../colors';
 
 export const AboutContainer = styled.div`
   color: white;
-  background: ${({ lightBg }) => (lightBg ? '#393e46' : '#010606')};
+  background: ${({ lightBg }) => (lightBg ? black : black)};
 
   @media screen and (max-width: 768px) {
       padding: 100px 0;
