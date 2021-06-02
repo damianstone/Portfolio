@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import * as colors from '../colors';
 
 export const HeroContainer = styled.div`
-  background: #040508;
+  background: ${colors.black};
   width: 100%;
   height: 100vh;
   margin-top: 80px;
@@ -71,13 +72,13 @@ export const HeroP2 = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
-    padding: 0;
+    padding: 10px;
   }
 `;
 
 export const HeroH1 = styled.h1`
   margin-bottom: 1rem;
-  color: #E98A4B;
+  color: ${colors.orange};
   font-size: 50px;
 
   @media screen and (max-width: 768px) {
@@ -99,6 +100,10 @@ export const HeroH2 = styled.h1`
 export const HeroBtnWrap = styled.div`
   width: 40%;
   padding: 10px;
+
+  @media screen and (max-width: 768px) {
+    width: 60%;
+  }
 `;
 
 export const HeroImgWrap = styled.div`

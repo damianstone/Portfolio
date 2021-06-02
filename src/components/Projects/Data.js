@@ -2,6 +2,7 @@ import Project1 from '../../images/projects/project-2.png';
 import Project2 from '../../images/projects/project-3.png';
 import Project3 from '../../images/projects/project-4.png';
 import Project4 from '../../images/projects/project-1.png';
+import Project5 from '../../images/projects/project-5.png';
 
 export const ProjectOne = {
   lightBg: false, // white or black
@@ -106,4 +107,32 @@ export const ProjectFour = {
   django: false,
   shopify: true,
   mailchimp: true,
+};
+
+export const ProjectFive = {
+  lightBg: false, // white or black
+  imgStart: true, // info - image
+  img: Project5,
+  alt: 'project x',
+  alignItems: true, // flex-start - flex-end
+  name: 'Machine Learning',
+  nameBlack: false, // black or white
+  boxGreen: true, // green or black
+  description:
+    'A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.',
+  descriptionLight: true, // white or green
+  techIconBlack: false, // black or green
+  flexStart: true, // flex-start - flex-end
+  linkWeb: null,
+  linkGit: 'http',
+  // TECNOLOGY ICONS
+
+  js: true,
+  node: false,
+  react: false,
+  python: true,
+  django: true,
+  shopify: false,
+  mailchimp: false,
+
 };

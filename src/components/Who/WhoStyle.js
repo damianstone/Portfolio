@@ -94,9 +94,13 @@ export const BtnWrap = styled.div`
 `;
 
 export const TechWrap = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
 `;
 
 export const TechIconWrap = styled.div`

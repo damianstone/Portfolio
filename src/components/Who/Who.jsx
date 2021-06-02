@@ -1,9 +1,12 @@
 import React from 'react';
 import Js from '../../svg/technologies/js-svg.svg';
-import react from '../../svg/technologies/react.svg';
+import react from '../../svg/technologies/react-2.svg';
 import Python from '../../svg/technologies/python.svg';
-import Django from '../../svg/technologies/django.svg';
 import Shopify from '../../svg/technologies/shopify.svg';
+import Redux from '../../svg/technologies/redux.svg';
+import Firebase from '../../svg/technologies/firebase.svg';
+import Figma from '../../svg/technologies/figma.svg';
+import Django from '../../svg/technologies/django.svg';
 import {
   AboutContainer,
   InfoWrapper,
@@ -53,6 +56,15 @@ const Info = (props) => {
                   </TechIconWrap>
                   <TechIconWrap>
                     <Icon src={react} />
+                  </TechIconWrap>
+                  <TechIconWrap>
+                    <Icon src={Redux} />
+                  </TechIconWrap>
+                  <TechIconWrap>
+                    <Icon src={Firebase} />
+                  </TechIconWrap>
+                  <TechIconWrap>
+                    <Icon src={Figma} />
                   </TechIconWrap>
                   <TechIconWrap>
                     <Icon src={Python} />

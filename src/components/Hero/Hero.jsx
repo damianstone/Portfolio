@@ -47,7 +47,7 @@ const Hero = (props) => {
                 exact='true'
                 offset={-80}
               >
-                My last proyect
+                Toogether App
                 {hover ? <ArrowForward /> : <ArrowRight />}
               </Button>
             </HeroBtnWrap>

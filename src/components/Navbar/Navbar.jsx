@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
+import Logo from '../../svg/logo-1.svg';
 import {
   Nav,
   NavContainer,

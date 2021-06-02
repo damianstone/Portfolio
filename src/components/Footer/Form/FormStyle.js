@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import * as colors from '../../colors';
 
 export const FormDiv = styled.div`
 width: 100%;
 height: auto;
-background-color: #393e46;
+background-color: ${colors.black};
 align-items: center;
 justify-content: center;
 display: flex;
@@ -26,9 +27,9 @@ flex-direction: column;
 align-items: center;
 
 @media screen and (max-width: 768px) {
-      width: 40%;
-      
-    }  
+      width: 95%;
+}  
+
 `;
 
 export const FormWrapper = styled.div`
@@ -93,11 +94,27 @@ export const InputSubmit = styled.input`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? '#fff' : '#0FE47A')};
+    background: ${({ primary }) => (primary ? '#fff' : colors.orange)};
   }
 `;
 
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: center;
+`;
+
+export const ImgSentEmail = styled.img`
+width: 250px;
+height: 300px;
+`;
+
+export const Spinner = styled.img`
+width: 100px;
+height: 100px;
+
+@media screen and (max-width: 768px) {
+    width: 70px;
+    height: 70px;
+}  
+
 `;

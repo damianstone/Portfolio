@@ -1,24 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Blog from './pages/Blog';
-import NotFound from './components/404/NotFound';
 import './App.css';
 
-class App extends Component {
+// make the app much faster
+const NotFound = React.lazy(() => import('./pages/404/NotFound'));
 
-  render() {
-    return (
-      <Router>
-        <Switch>
-          <Route path='/' component={Home} exact />
-          <Route path='/blog' component={Blog} />
-          <Route component={NotFound} />
-        </Switch>
-      </Router>
-    );
-  }
-}
+const App = () => {
+  return (
+    <Router>
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route component={NotFound} />
+      </Switch>
+    </Router>
+  );
+};
 
 export default App;
 

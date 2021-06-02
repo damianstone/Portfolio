@@ -38,19 +38,18 @@ export const NavLogo = styled(LinkR)`
   color: ${grey};
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.7rem;
+  font-size: 3.0rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
 
-
 `;
 
 export const ReactLogo = styled.i`
     margin-left: 0.5rem;
-    font-size: 1.6rem;
+    font-size: 3.0rem;
 
     @media screen and (max-width: 768px) {
       margin-left: 0;

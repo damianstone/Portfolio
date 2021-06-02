@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import SectionTitle from '../UI/SectionTitle/SectionTitle';
-import { ProjectOne, ProjectTwo, ProjectThree, ProjectFour } from './Data';
+import { ProjectOne, ProjectTwo, ProjectThree, ProjectFour, ProjectFive } from './Data';
 import {
   ProjectContainer,
 } from './ProjectStyle';
@@ -15,6 +15,7 @@ const Projects = (props) => {
       <Project {...ProjectOne} />
       <Project {...ProjectTwo} />
       <Project {...ProjectThree} />
+      <Project {...ProjectFive} />
     </ProjectContainer>
   );
 };

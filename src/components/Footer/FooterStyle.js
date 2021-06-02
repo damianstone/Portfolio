@@ -73,9 +73,12 @@ export const FooterSocial = styled.div`
     flex-direction: row;
     box-sizing: border-box;
     padding: 15px;
+    padding-bottom: 30px;
 
     @media screen and (max-width: 768px) {
-
+        width: 100%;
+        padding: 15px;
+        padding-bottom: 30px;
     }
 `;
 export const SocialLink = styled.a`
@@ -92,7 +95,7 @@ export const SocialLink = styled.a`
     }
 
     @media screen and (max-width: 768px) {
-        font-size: 50px;
+        font-size: 40px;
         padding: 10px;
     }
 `;

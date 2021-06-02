@@ -1,5 +1,6 @@
 import Img1 from '../../svg/svg-6.svg';
 import Img2 from '../../svg/svg-3.svg';
+import Gif1 from '../../GIF/gif-1.gif';
 
 export const WhoObj = {
   to: 'projects',
@@ -12,7 +13,7 @@ export const WhoObj = {
   description: '',
   buttonLabel: 'Projects',
   imgStart: false,
-  img: Img1,
+  img: Gif1,
   alt: 'Car',
   dark: false,
   primary: false,
@@ -26,14 +27,14 @@ export const DvsoftObj = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'DVSOFT',
-  headline: 'Dream your ideas. We make them come true',
+  topLine: 'START UP',
+  headline: 'Toogether App',
   description: 'Your website is your main cover letter for your next potential clients. Make sure you live up to it, with a professional website that reflects your companys values ​​and work.',
   buttonLabel: 'Meet the team',
   imgStart: true,
   img: Img2,
   alt: 'app',
-  dark: false,
+  dark: true,
   primary: true,
   darkText: false,
 };
