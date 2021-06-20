@@ -8,6 +8,9 @@ import './App.css';
 // make the app much faster
 const NotFound = React.lazy(() => import('./pages/404/NotFound'));
 
+const TRACKING_ID = 'G-ZY56W7NQWC';
+ReactGA.initialize(TRACKING_ID);
+
 const history = createBrowserHistory();
 
 history.listen((location) => {
