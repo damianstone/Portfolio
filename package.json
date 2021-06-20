@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://damianstone.github.io/Portfolio",
+  "homepage": "https://portfolio-ef1d1.web.app",
   "dependencies": {
     "@material-ui/core": "^4.11.1",
     "@testing-library/jest-dom": "^5.11.6",
@@ -11,6 +11,7 @@
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
     "react-icons": "^4.1.0",
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "firebase build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

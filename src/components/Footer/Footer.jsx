@@ -58,16 +58,13 @@ class Footer extends Component {
         <FooterWrap>
           {contact}
           <FooterSocial>
-            <SocialLink href='http://www.ultravaper.cl' target='_blank'>
+            <SocialLink href='https://www.linkedin.com/in/damian-stone-796a0318b/' target='_blank'>
               <FaLinkedin />
             </SocialLink>
             <SocialLink href='https://github.com/damianstone' target='_blank'>
               <FaGithub />
             </SocialLink>
-            <SocialLink href='https://www.linkedin.com/in/damian-stone-796a0318b/' target='_blank'>
-              <SiGmail />
-            </SocialLink>
-            <SocialLink href='https://www.linkedin.com/in/damian-stone-796a0318b/' target='_blank'>
+            <SocialLink href='https://damianztone.medium.com/' target='_blank'>
               <FaMedium />
             </SocialLink>
             <SocialLink href='https://www.linkedin.com/in/damian-stone-796a0318b/' target='_blank'>

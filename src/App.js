@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import ReactGa from 'react-ga';
 import Home from './pages/Home';
 import './App.css';
 
@@ -7,6 +8,13 @@ import './App.css';
 const NotFound = React.lazy(() => import('./pages/404/NotFound'));
 
 const App = () => {
+  useEffect(() => {
+    ReactGa.initialize('G-ZY56W7NQWC');
+
+    //to report page view
+    ReactGa.pageview('/');
+  }, []);
+
   return (
     <Router>
       <Switch>
@@ -18,4 +26,3 @@ const App = () => {
 };
 
 export default App;
-

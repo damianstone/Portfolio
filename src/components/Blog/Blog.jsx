@@ -11,8 +11,6 @@ const Blog = (props) => {
     <BlogSection id='blog'>
       <SectionTitle title='Blog' />
       <BlogItems {...BlogOne} />
-      <BlogItems {...BlogOne} />
-      <BlogItems {...BlogOne} />
     </BlogSection>
   );
 };

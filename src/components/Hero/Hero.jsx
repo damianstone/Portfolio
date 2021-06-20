@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Button from '../ButtonStyle';
-import HeroImage from '../../svg/svg-4.svg';
+//import HeroImage from '../../svg/svg-4.svg';
+import HeroGif from '../../GIF/gift-2.gif';
 import {
   HeroContainer,
   HeroContent,
@@ -54,7 +55,7 @@ const Hero = (props) => {
           </Fade>
         </HeroText>
         <HeroImgWrap>
-          <HeroImg src={HeroImage} alt='' />
+          <HeroImg src={HeroGif} alt='' />
         </HeroImgWrap>
       </HeroContent>
     </HeroContainer>

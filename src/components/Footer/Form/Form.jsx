@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import sentMailSvg from '../../../svg/extra/mailSent.svg';
-import spinner from '../../../GIF/spinner.gif';
+import Spinner from '../../UI/Spinner/Spinner';
 import SectionTitle from '../../UI/SectionTitle/SectionTitle';
 import {
   FormDiv,
@@ -14,7 +14,6 @@ import {
   InputSubmit,
   TexTarea,
   ImgSentEmail,
-  Spinner,
 } from './FormStyle';
 
 const Form = () => {
@@ -40,7 +39,7 @@ const Form = () => {
   if (loading) {
     form = (
       <FormDiv>
-        <Spinner src={spinner} alt='spinner' />
+        <Spinner />
       </FormDiv>
     );
   }
