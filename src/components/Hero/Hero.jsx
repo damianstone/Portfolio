@@ -32,7 +32,7 @@ const Hero = (props) => {
         <HeroText>
           <Fade left>
             <HeroP>Hey! 👋  My name is</HeroP>
-            <HeroH1>Deployed 2</HeroH1>
+            <HeroH1>Damian Stone</HeroH1>
             <HeroH2>I turn ideas into code</HeroH2>
             <HeroP2>Computer Science student at University of Bristol</HeroP2>
             <HeroBtnWrap>
