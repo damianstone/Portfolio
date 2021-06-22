@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import Button from '../ButtonStyle';
 //import HeroImage from '../../svg/svg-4.svg';
-import HeroGif from '../../GIF/gift-2.gif';
+import HeroGif from '../../svg/logo-1.svg';
 import {
   HeroContainer,
   HeroContent,
@@ -17,6 +17,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from './HeroStyle';
+import { initGA, trackingPageGA } from '../../reactGA';
 
 const Hero = (props) => {
 
@@ -25,6 +26,11 @@ const Hero = (props) => {
   const onHover = () => {
     setHover(!hover);
   };
+
+  useEffect(() => {
+    initGA();
+    trackingPageGA('/hero');
+  });
 
   return (
     <HeroContainer id='home'>

@@ -14,6 +14,7 @@ import {
 import SectionTitle from '../UI/SectionTitle/SectionTitle';
 import Button from '../ButtonStyle';
 import Form from './Form/Form';
+import { eventGA } from '../../reactGA';
 
 class Footer extends Component {
 
@@ -28,6 +29,10 @@ class Footer extends Component {
         this.setState({ showForm: false });
       }, 120000); // wait 5 seconds, then reset to false
     }
+  };
+
+  handleEvent = (event) => {
+    eventGA('social', 'githubClick');
   };
 
   render() {
@@ -61,7 +66,7 @@ class Footer extends Component {
             <SocialLink href='https://www.linkedin.com/in/damian-stone-796a0318b/' target='_blank'>
               <FaLinkedin />
             </SocialLink>
-            <SocialLink href='https://github.com/damianstone' target='_blank'>
+            <SocialLink href='https://github.com/damianstone' target='_blank' onClick={this.handleEvent}>
               <FaGithub />
             </SocialLink>
             <SocialLink href='https://damianztone.medium.com/' target='_blank'>

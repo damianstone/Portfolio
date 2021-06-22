@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Js from '../../svg/technologies/js-svg.svg';
 import react from '../../svg/technologies/react-2.svg';
 import Python from '../../svg/technologies/python.svg';
@@ -23,8 +23,18 @@ import {
   Column2,
   Img,
 } from './WhoStyle';
+import {
+  initGA,
+  trackingPageGA,
+} from '../../reactGA';
 
 const Info = (props) => {
+
+  useEffect(() => {
+    initGA();
+    trackingPageGA('/about');
+  }, []);
+
   return (
     <>
       <AboutContainer lightBg={props.lightBg} id={props.id}>
